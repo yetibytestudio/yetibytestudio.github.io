@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yetibyte Studio</title>
+<meta name="description" content="Yetibyte Studio makes calm, original puzzle games for phones.">
+<link rel="icon" href="icon.png">
+<style>
+:root { --ground:#E9EDF0; --panel:#F7F8F9; --ink:#1D2328; --muted:#5E6973; --ticket:#F2C94C; --line:#CDD5DC; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--ground); color:var(--ink);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-wrap: anywhere; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header { padding: 22px 0; }
+header a.brand { color: var(--ink); text-decoration: none; font-weight: 800; font-size: 20px; letter-spacing: -0.01em; }
+header nav { float: right; }
+header nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
+header nav a:hover, footer a:hover { color: var(--ink); }
+main { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 28px 30px; margin-bottom: 28px; }
+h1 { font-size: 32px; line-height: 1.2; margin: 0 0 12px; }
+h2 { font-size: 22px; margin: 30px 0 8px; }
+h3 { font-size: 18px; margin: 22px 0 6px; }
+p, li { color: var(--ink); }
+a { color: #1f5fa8; }
+.muted { color: var(--muted); }
+.game { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+.game img { width: 132px; height: 132px; border-radius: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.12); }
+.pill { display: inline-block; background: var(--ticket); color: #2A2207; font-weight: 700; font-size: 14px;
+  padding: 4px 12px; border-radius: 999px; }
+footer { padding: 0 0 40px; font-size: 14px; color: var(--muted); }
+footer a { color: var(--muted); margin-right: 16px; }
+@media (max-width: 520px) { main { padding: 22px 18px; } h1 { font-size: 26px; } header nav { float: none; display: block; margin-top: 8px; } header nav a { margin: 0 16px 0 0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="/">Yetibyte Studio</a>
+<nav><a href="/">Games</a><a href="/support">Support</a><a href="/privacy">Privacy</a></nav></header>
+<main>
+<h1>Small puzzle games, made in Australia.</h1>
+<p class="muted">Yetibyte Studio makes calm, original puzzle games for phones.</p>
+<h2>Push-Through Rails</h2>
+<div class="game">
+<img src="push-through-rails.png" alt="Push-Through Rails app icon">
+<div>
+<p><span class="pill">Coming soon to the App Store</span></p>
+<p>Every rail is full and you're holding one item. Push it onto either end of a rail, and the item at the
+other end drops into your hand. Plan your pushes, fill a rail with one kind, and clear the rack.</p>
+<p class="muted">60 levels · plays offline · no account needed</p>
+</div>
+</div>
+<h2>Contact</h2>
+<p>Questions or feedback: <a href="mailto:yetibytestudio@gmail.com">yetibytestudio@gmail.com</a></p>
+
+</main>
+<footer><a href="/privacy">Privacy Policy</a><a href="/support">Support</a><span>© 2026 Yetibyte Studio</span></footer>
+</div>
+</body>
+</html>
